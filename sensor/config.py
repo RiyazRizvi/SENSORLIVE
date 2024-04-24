@@ -9,4 +9,4 @@ class EnviromentVariable:
 
 env_var=EnviromentVariable()
 
-mongo_clint=pymongo.MongoClient(env_var.mongo_db_url)
+mongo_client=pymongo.MongoClient(env_var.mongo_db_url)
